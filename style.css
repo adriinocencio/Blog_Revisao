@@ -1,0 +1,128 @@
+* {
+    margin: 0; /* remover margens */
+    padding: 0; /* remover padding */
+    border: 0; /* remover bordas */
+  }
+
+html {
+    margin: 0; /* remover margens */
+    padding: 0; /* remover padding */
+    border: 0; /* remover bordas */
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+}
+
+body {
+	width: 100%;
+    height: 100%;
+	float: none;
+    font-family: "Inter", sans-serif;
+    color: #2c2c2c;
+    background-color: #fafafa;
+    padding: 3em;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    font-weight: 700;
+    padding-bottom: 3em;
+}
+
+nav {
+    font-weight: 300;
+    float: right;
+    position: absolute;
+    left: 0;
+    width: 100%;
+    margin-left: -3em;
+}
+
+.navList-container {
+    display: flex;
+    gap: 2em;
+    float: right;
+}
+
+a {
+    text-decoration: none;
+    color: #2c2c2c;
+}
+
+a:hover {
+    text-decoration: underline;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    font-size: 1em;
+}
+
+h1 {
+    font-size: 2em;
+    margin-bottom: 0.5em;
+}
+
+p {
+    font-size: 1em;
+}
+
+.sectionTitleText {
+    color: #828282;
+}
+
+.sectionContent-container {
+    margin-top: 2em;
+}
+
+.sectionContentRow {
+    display: flex;
+}
+
+.course-container {
+    flex: 1;
+    padding: 1em;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.courseImg {
+    width: 100%;
+    height: 200px; /* Ajuste a altura conforme necessário */
+    object-fit: cover; /* Para garantir que a imagem cubra o contêiner */
+    border-radius: 8px;
+}
+
+.courseTitle {
+    font-weight: 700;
+    font-size: 1.3em;
+    margin-bottom: 0.3em;
+}
+
+.courseText {
+    color: #828282;
+}
+
+.fichaName {
+    margin-bottom: 1em;
+}
+
+.fichaName h2 {
+    margin-bottom: 0.3em;
+}
+
+.fichaName img {
+    width: 150px;
+    height: 150px;
+}
+
+.fichaTable {
+    margin: 1em;
+    padding-top: 1em;
+}
